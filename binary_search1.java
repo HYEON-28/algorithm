@@ -1,4 +1,4 @@
-// No. 278
+// No. 704
 class Solution {
     public int search(int[] nums, int target) {
         int startIndex = 0;

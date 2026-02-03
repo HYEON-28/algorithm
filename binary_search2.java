@@ -1,5 +1,5 @@
-// No. 35
-public class Solution extends VersionControl {
+// No. 278
+public class binary_search2 extends VersionControl {
     public int firstBadVersion(int n) {
         int startIndex = 1;
         int endIndex = n;
