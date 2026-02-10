@@ -5,7 +5,7 @@ import java.util.List;
 
 import javax.swing.tree.TreeNode;
 
-// 
+// 94. Binary Tree Inorder Traversal
 
 /**
  * Definition for a binary tree node.
@@ -85,7 +85,6 @@ public class tree_traversal3 {
 
         return result;
     }
-
     public static void main(String[] args) {
         /*
          입력 트리 구조:
