@@ -25,3 +25,8 @@ queue.isEmpty();
 
 ## 정렬
 Arrays.sort(arr);
+
+## ArrayList
+선언하며 값 할당하기
+List<Integer> result = Arrays.asList(1, 2, 3); -- 값 추가, 삭제 불가
+List<Integer> result = new ArrayList<>(Arrays.asList(1, 2, 3)); -- 값 추가, 삭제 가능
