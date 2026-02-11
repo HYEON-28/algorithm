@@ -1,1 +1,27 @@
 # algorithm
+
+## stack
+ex) Deque<Integer> stack = new ArrayDeque<>();
+stack.push(sth);
+stack.pop();
+stack.peek();
+stack.isEmpty();
+
+## queue
+ex) Queue<Integer> queue = new ArrayDeque<>();
+queue.offer(sth);
+queue.poll();
+queue.peek();
+queue.isEmpty();
+
+Queue<TreeNode> queue = new LinkedList<>();
+queue.offer(sth);
+queue.poll();
+queue.peek();
+queue.isEmpty();
+
+- 예외를 던지는 버전(add/remove)
+- 안전한 버전(offer/poll)
+
+## 정렬
+Arrays.sort(arr);
