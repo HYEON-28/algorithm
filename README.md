@@ -6,6 +6,7 @@ stack.push(sth);
 stack.pop();
 stack.peek();
 stack.isEmpty();
+* stack: pp!!
 
 ## queue
 ex) Queue<Integer> queue = new ArrayDeque<>();
@@ -13,6 +14,7 @@ queue.offer(sth);
 queue.poll();
 queue.peek();
 queue.isEmpty();
+* queue: op!!
 
 Queue<TreeNode> queue = new LinkedList<>();
 queue.offer(sth);
