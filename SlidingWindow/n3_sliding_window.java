@@ -1,7 +1,7 @@
 package SlidingWindow;
 import java.util.HashSet;
 import java.util.Set;
-public class sliding_window1 {
+public class n3_sliding_window {
     public static void main(String[] args) {
         String input = "abcabcbb";
         Set<Character> used = new HashSet<Character>();

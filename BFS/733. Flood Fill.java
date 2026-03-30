@@ -2,6 +2,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Queue;
 
+// 2026.04.09
 // 이미지에서 특정 색을 찍어서 인접한 모든 같은색들을 새로운 색으로 바꿈.
 // 인접한 같은색들 -> 큐에 넣기
 

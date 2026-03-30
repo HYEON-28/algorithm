@@ -20,7 +20,7 @@ public class two_pointer1 {
 }
 
 // 위 답은 투포인터라고 보기 어려움.
-
+/*
 public class two_pointer {
     public int[] twoSum(int[] numbers, int target) {
         int left = 0;
@@ -40,3 +40,4 @@ public class two_pointer {
         return new int[]{0, 0};
     }
 }
+ */
