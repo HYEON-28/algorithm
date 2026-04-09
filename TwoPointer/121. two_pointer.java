@@ -1,5 +1,5 @@
 // 121. Best Time to Buy and Sell Stock
-public class array1 {
+public class two_pointer3 {
     public static void main(String[] args) {
         int[] prices = {7, 1, 5, 3, 6, 4};
         int min = prices[0];
