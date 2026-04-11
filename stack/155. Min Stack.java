@@ -1,22 +1,28 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
+import java.util.Stack;
 
 class MinStack {
-
     Deque<Integer> stack;
-    LinkedList<Integer> list = new LinkedList<>();
+    Deque<Integer> minStack;
     
     public MinStack() {
       stack = new ArrayDeque<>();
+      minStack = new ArrayDeque<>();
     }
 
     public void push(int val) {
       stack.push(val);
+      if(minStack.isEmpty() || val <= minStack.peek()) {
+        minStack.push(val);
+      }
     }
 
     public void pop() {
-      stack.pop();
+      int val = stack.pop();
+      if(!minStack.isEmpty() && val == minStack.peek()) {
+        minStack.pop();
+      }
     }
 
     public int top() {
@@ -24,10 +30,10 @@ class MinStack {
     }
 
     public int getMin() {
-        return 0; // TODO: 구현 필요
+        return minStack.peek();
     }
 
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
         // LeetCode 예제 테스트
         // ["MinStack","push","push","push","getMin","pop","top","getMin"]
         // [[],[-2],[0],[-3],[],[],[],[]]
