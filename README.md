@@ -11,13 +11,11 @@
    30분 고민 → 안되면 해설
    해설 보고 다시 혼자 구현
    2~3일 뒤 다시 풀기
-
 2. 일본 빅테크 특징
    라인 / 메루카리 기준:
    Medium 중심
    Graph / DFS / BFS / DP 많이 나옴
    시간복잡도 설명 필수
-
 3. 추천 주간 루틴
    평일: 1~2문제
    주말: 복습 + 재풀이
@@ -80,21 +78,6 @@ Arrays.sort(arr);
 선언하며 값 할당하기
 List<Integer> result = Arrays.asList(1, 2, 3); -- 값 추가, 삭제 불가
 List<Integer> result = new ArrayList<>(Arrays.asList(1, 2, 3)); -- 값 추가, 삭제 가능
-
-## HashMap
-
-- 목적: 데이터 저장
-  Map<String, Integer> map = new HashMap<>();
-  map.put("apple", 1);
-  map.get("apple");
-  map.containsKey(num); -> 존재여부 체크
-
-## HashSet
-
-- 목적: 존재여부 체크
-  Set<String> set = new HashSet<>();
-  set.add("apple");
-  contains(value) -> 존재여부 체크
 
 ## Linked List
 
