@@ -28,7 +28,6 @@ class Solution {
           endIdx = i+1;
           mapCopy = map; // mapCopy다시 복원
         }
-        
 
       }
       return true;
